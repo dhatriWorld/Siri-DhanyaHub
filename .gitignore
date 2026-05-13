@@ -4,10 +4,13 @@
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 /build
 /captures
 .externalNativeBuild
 .cxx
 *.apk
+*.ap_
 *.aab
 google-services.json
