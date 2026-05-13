@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5D4037</color>       <!-- dark brown -->
+    <color name="colorPrimaryDark">#3E2723</color>   <!-- deeper brown -->
+    <color name="colorAccent">#8BC34A</color>         <!-- leaf green -->
+    <color name="colorBackground">#FFF8E1</color>     <!-- warm cream -->
+    <color name="colorUpTrend">#388E3C</color>       <!-- price up green -->
+    <color name="colorDownTrend">#D32F2F</color>     <!-- price down red -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

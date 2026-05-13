@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🍲 Recipe Lab"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:padding="16dp"
+        android:background="@color/white" />
+
+    <!-- Search bar -->
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search by millet type (Navane, Sajje...)"
+        android:padding="12dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:inputType="text" />
+
+    <!-- Recipe list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp" />
+
+</LinearLayout>

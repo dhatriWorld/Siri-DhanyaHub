@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hero banner -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌾"
+                android:textSize="48sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Siri-Dhanya Hub"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karnataka's Millet Value Chain App"
+                android:textSize="13sp"
+                android:textColor="#FFCCBC"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <!-- Stats row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4\nMillets"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5\nRecipes"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4\nFPOs"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Section title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What can you do here?"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:padding="16dp" />
+
+        <!-- Feature cards -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp">
+
+            <TextView android:id="@+id/card_mandi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📈  Mandi Watch\nCheck live millet prices across Karnataka cities"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/white"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="3dp" />
+
+            <TextView android:id="@+id/card_recipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🍲  Recipe Lab\nDiscover and save millet-based Kannada recipes"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/white"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="3dp" />
+
+            <TextView android:id="@+id/card_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💚  Health Benefits\nLearn why millets are superfoods for your body"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/white"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="3dp" />
+
+            <TextView android:id="@+id/card_buy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🛒  Direct Buy\nConnect with local FPOs and buy fresh millets"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/white"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:elevation="3dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
